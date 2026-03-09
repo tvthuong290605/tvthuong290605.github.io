@@ -1,98 +1,56 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio của tôi</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      line-height: 1.6;
-    }
-    header {
-      background: #333;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    nav {
-      background: #444;
-      padding: 10px;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      margin: 0 15px;
-      text-decoration: none;
-    }
-    section {
-      padding: 20px;
-    }
-    .projects {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    .project {
-      border: 1px solid #ccc;
-      padding: 15px;
-      width: 300px;
-    }
-    footer {
-      background: #333;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-      margin-top: 20px;
-    }
-  </style>
+  <title>My Portfolio - Thuong</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <h1>Xin chào, tôi là Thưởng</h1>
-    <p>Lập trình viên & Người học triết học</p>
+    <h1>Hello, I'm Thuong</h1>
+    <h2>Programmer & Philosophy Student</h2>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <nav>
-    <a href="#about">Giới thiệu</a>
-    <a href="#projects">Dự án</a>
-    <a href="#contact">Liên hệ</a>
-  </nav>
-
+  <!-- About Section -->
   <section id="about">
-    <h2>Giới thiệu</h2>
-    <p>Tôi yêu thích công nghệ và triết học, đặc biệt là kết nối lý thuyết với thực tiễn. 
-       Tôi có kinh nghiệm về Linux/WSL, Java, SQL và thường xuyên tìm cách tự động hóa công việc.</p>
+    <h3>About Me</h3>
+    <p>
+      I am passionate about technology and philosophy, especially bridging theory with practice. 
+      I have experience with Linux/WSL, Java, SQL, and I often look for ways to automate tasks.
+    </p>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects">
-    <h2>Dự án</h2>
-    <div class="projects">
-      <div class="project">
-        <h3>Quản lý cơ sở dữ liệu</h3>
-        <p>Ứng dụng Java kết nối DAL và UI để quản lý dữ liệu hiệu quả.</p>
-      </div>
-      <div class="project">
-        <h3>Script Linux</h3>
-        <p>Bộ script tự động kiểm tra, tạo và quản lý file, symbolic link trong WSL.</p>
-      </div>
-      <div class="project">
-        <h3>Bài thuyết trình Triết học</h3>
-        <p>Slide về nhận thức luận Marxist, kết hợp ví dụ thực tiễn để minh họa.</p>
-      </div>
+    <h3>Projects</h3>
+    <div class="project">
+      <h4>Database Management</h4>
+      <p>Java application connecting DAL and UI for efficient data management.</p>
+    </div>
+    <div class="project">
+      <h4>Linux Scripts</h4>
+      <p>Automation scripts for checking, creating, and managing files and symbolic links in WSL.</p>
+    </div>
+    <div class="project">
+      <h4>Philosophy Presentation</h4>
+      <p>Slides on Marxist epistemology, combined with practical examples for illustration.</p>
     </div>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact">
-    <h2>Liên hệ</h2>
+    <h3>Contact</h3>
     <p>Email: <a href="mailto:thuong@example.com">thuong@example.com</a></p>
-    <p>GitHub: <a href="https://github.com/username" target="_blank">github.com/username</a></p>
+    <p>GitHub: <a href="https://github.com/tvthuong290605" target="_blank">github.com/tvthuong290605</a></p>
+    <p>CV: <a href="files/CV_Thuong.pdf" target="_blank">Download my CV (PDF)</a></p>
   </section>
-
-  <footer>
-    <p>&copy; 2026 Portfolio của Thưởng</p>
-  </footer>
 </body>
 </html>
