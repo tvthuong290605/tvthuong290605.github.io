@@ -1,26 +1,29 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  line-height: 1.6;
   background-color: #f4f4f9;
   color: #333;
-  padding: 0 20px;
+  padding: 0 0px;
+  margin: 0px 0px;
 }
 
 header {
-  background: #2c3e50;
+  background: #1f4e38;
   color: #fff;
-  padding: 40px 20px;
-  text-align: center;
+  padding: 20px 20px;
+  text-align: left;
 }
 
 header h1 {
   font-size: 2.5em;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 header h2 {
   font-weight: 300;
   margin-bottom: 20px;
+}
+.header_div2{
+display:flex;
 }
 
 /* Avatar */
